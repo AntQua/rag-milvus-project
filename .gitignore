@@ -1,0 +1,28 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore local Jupyter configuration files
+.jupyter/
+
+# Ignore Docker volumes directory
+volumes/
+
+# Ignore any log files
+*.log
+
+# Ignore temporary or system files
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments (if applicable)
+env/
+venv/
+
+# Ignore personal configuration files
+*.env
