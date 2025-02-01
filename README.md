@@ -29,8 +29,12 @@ The milvus-standalone-docker-compose.yml file sets up four containers:
 - Milvus Server: Runs as a standalone service, listening on Port 19530.
 - Attu: A web-based user interface for managing and viewing Milvus.
 
-Start the containers using: docker-compose -f milvus-standalone-docker-compose.yml up -d
-Verify that the containers are running: docker ps
+- Start the containers using: 
+  ```bash
+  docker-compose -f milvus-standalone-docker-compose.yml up -d
+- Verify that the containers are running:
+  ```bash
+  docker ps
 
 ### Step 2: Download the Project Files
 - Clone this repository to your local directory:
